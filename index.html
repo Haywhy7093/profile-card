@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article
+        class="profile-card"
+        data-testid="test-profile-card"
+        aria-label="User profile card"
+      >
+        <!-- Avatar -->
+        <figure class="profile-avatar">
+          <img
+            src="DEBS.png"
+            alt="User"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div class="profile-content">
+          <!-- Name -->
+          <header>
+            <h2 data-testid="test-user-name">Oyeyemi Ayomide Debroah</h2>
+          </header>
+
+          <!-- Biography -->
+          <p data-testid="test-user-bio">
+            A passionate frontend developer who loves crafting beautiful,
+            accessible interfaces and solving complex UI challenges.
+          </p>
+
+          <!-- Current time -->
+          <p>
+            Current time (ms):
+            <span data-testid="test-user-time" id="user-time"></span>
+          </p>
+
+          <!-- Social Links -->
+          <nav
+            class="social-links"
+            data-testid="test-user-social-links"
+            aria-label="User social links"
+          >
+            <ul>
+              <li>
+                <a
+                  href="https://x.com/Debs_Haywhy?t=qaPUwA7xbRUyqo8LujTY1A&s=09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-twitter"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/deborah-oyeyemi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-linkedin"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Hobbies -->
+          <section aria-labelledby="hobbies-title">
+            <h3 id="hobbies-title">Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Traveling</li>
+              <li>Listening to Music</li>
+              <li>Dancing</li>
+            </ul>
+          </section>
+
+          <!-- Dislikes -->
+          <section aria-labelledby="dislikes-title">
+            <h3 id="dislikes-title">Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Procrastination</li>
+              <li>Slow internet</li>
+              <li>Unclear documentation</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
