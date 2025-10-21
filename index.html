@@ -8,28 +8,21 @@
   </head>
   <body>
     <main>
-      <article
-        class="profile-card"
-        data-testid="test-profile-card"
-        aria-label="User profile card"
-      >
-       <!-- ✅ NAV BAR INSIDE CARD -->
-      <nav class="card-nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="contact.html">Contact Us</a>
-      </nav>
+            <!-- ✅ NAV BAR MOVED ABOVE THE CARD -->
+  <nav class="card-nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
 
-        <!-- Avatar -->
-        <figure class="profile-avatar">
-          <img
-            src="DEBS.png"
-            alt="User"
-            data-testid="test-user-avatar"
-          />
-        </figure>
-
-        <div class="profile-content">
+  <main>
+    <article class="profile-card" data-testid="test-profile-card" aria-label="User profile card">
+      <!-- Avatar -->
+      <figure class="profile-avatar">
+        <img src="DEBS.png" alt="User" data-testid="test-user-avatar" />
+      </figure>
+      
+      <div class="profile-content">
           <!-- Name -->
           <header>
             <h2 data-testid="test-user-name">Oyeyemi Ayomide Debroah</h2>
