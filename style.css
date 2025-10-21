@@ -32,9 +32,9 @@ body {
   transform: translateY(-5px);
 }
 
-.profile-picture img {
-  width: 70%;
-  height: 50%;
+.profile-avatar img {
+  width: 100%;
+  height: auto%;
 }
 
 .profile-content {
@@ -87,9 +87,9 @@ section ul {
     max-width: 700px;
   }
 
-  .profile-picture img {
-    width: 125px;
-    height: 35%;
+  .profile-avatar img {
+    width: 250px;
+    height: 70%;
     object-fit: cover;
   }
 
@@ -97,5 +97,6 @@ section ul {
     flex: 1;
   }
 }
+
 
 
