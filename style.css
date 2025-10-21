@@ -88,8 +88,8 @@ section ul {
   }
 
   .profile-picture img {
-    width: 250px;
-    height: 100%;
+    width: 125px;
+    height: 35%;
     object-fit: cover;
   }
 
@@ -97,3 +97,4 @@ section ul {
     flex: 1;
   }
 }
+
